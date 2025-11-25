@@ -28,5 +28,19 @@ dist-ssr
 *.sln
 *.sw?
 
-# Deployment Keys
+# Deployment Keys & Secrets
 DEPLOY_KEYS.txt
+DEPLOY_CHEAT_SHEET.txt
+
+# Environment Variables (Strict)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build & Dependencies
+node_modules/
+dist/
+build/
+.DS_Store
