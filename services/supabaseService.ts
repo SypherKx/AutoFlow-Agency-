@@ -1,3 +1,34 @@
+import { createClient } from '@supabase/supabase-js';
+
+// Supabase configuration
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+
+console.log('🔍 Supabase Config Check:');
+console.log('URL:', supabaseUrl ? '✅ Found' : '❌ MISSING');
+console.log('Anon Key:', supabaseAnonKey ? '✅ Found' : '❌ MISSING');
+
+if (!supabaseUrl || !supabaseAnonKey) {
+  console.error('❌ CRITICAL: Supabase environment variables are missing!');
+  console.error('Expected: VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY in .env file');
+}
+
+// Create Supabase client
+export const supabase = createClient(
+  supabaseUrl || '',
+  supabaseAnonKey || ''
+);
+
+// Test the connection immediately
+(async () => {
+  try {
+    await supabase.from('leads').select('count').limit(1);
+    console.log('✅ Supabase connection successful!');
+  } catch (err: any) {
+    console.error('❌ Supabase connection failed:', err.message);
+  }
+})();
+
 // Auth functions
 export const auth = {
   signUp: async (email: string, password: string) => {
