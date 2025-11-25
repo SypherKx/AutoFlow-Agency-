@@ -1,8 +1,8 @@
-# AutoFlow Agency OS 🚀
+# FlowLabs 🚀
 
 **The Ultimate Operating System for Modern Automation Agencies.**
 
-AutoFlow Agency OS is a comprehensive, AI-powered platform designed to help automation agencies scale faster. It replaces scattered spreadsheets and disconnected tools with a single, unified command center for managing leads, clients, projects, and payments.
+FlowLabs is a comprehensive, AI-powered platform designed to help automation agencies scale faster. It replaces scattered spreadsheets and disconnected tools with a single, unified command center for managing leads, clients, projects, and payments.
 
 ![Status](https://img.shields.io/badge/status-production-green.svg)
 ![Stack](https://img.shields.io/badge/stack-React%20%7C%20Supabase%20%7C%20Razorpay%20%7C%20Gemini%20AI-indigo.svg)
@@ -10,9 +10,9 @@ AutoFlow Agency OS is a comprehensive, AI-powered platform designed to help auto
 
 ---
 
-## 💡 Why AutoFlow?
+## 💡 Why FlowLabs?
 
-Running an agency is hard. You have leads in emails, client data in spreadsheets, and payments all over the place. **AutoFlow solves this chaos.**
+Running an agency is hard. You have leads in emails, client data in spreadsheets, and payments all over the place. **FlowLabs solves this chaos.**
 
 It acts as the "Brain" of your agency, allowing you to:
 *   **Close More Deals:** Use AI to generate personalized outreach messages that convert.
@@ -36,7 +36,7 @@ A visual Kanban-style pipeline to track every lead from "New" to "Closed Won".
 *   **Status Tracking:** Never let a potential client fall through the cracks.
 
 ### ⚡ Automation Hub (Make.com Integration)
-Launch complex automation workflows with a single click. Connect your agency's tools (Slack, Airtable, Gmail, etc.) and monitor their performance directly from the AutoFlow dashboard.
+Launch complex automation workflows with a single click. Connect your agency's tools (Slack, Airtable, Gmail, etc.) and monitor their performance directly from the FlowLabs dashboard.
 
 ### 📈 Real-Time Analytics
 Visualize your agency's health with a beautiful dashboard. Track:
@@ -59,7 +59,7 @@ Visualize your agency's health with a beautiful dashboard. Track:
 
 ## 🚀 Getting Started
 
-Follow these steps to set up your own instance of AutoFlow Agency OS.
+Follow these steps to set up your own instance of FlowLabs.
 
 1.  **Clone the Repository:**
     ```bash
@@ -85,7 +85,7 @@ Follow these steps to set up your own instance of AutoFlow Agency OS.
 
 ## ⚙️ Configuration Guide
 
-To unlock the full power of AutoFlow, configure the following in the **Settings** tab:
+To unlock the full power of FlowLabs, configure the following in the **Settings** tab:
 
 1.  **Google Gemini API:** Required for AI prospecting features. Get it from [Google AI Studio](https://aistudio.google.com/).
 2.  **Razorpay Key ID:** Required for processing payments. Get it from your [Razorpay Dashboard](https://dashboard.razorpay.com/).
