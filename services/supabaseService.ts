@@ -1,18 +1,3 @@
-import { createClient } from '@supabase/supabase-js';
-
-// Supabase configuration
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
-
-console.log('🔍 Supabase Config Check:');
-console.log('URL:', supabaseUrl ? '✅ Found' : '❌ MISSING');
-console.log('Anon Key:', supabaseAnonKey ? '✅ Found' : '❌ MISSING');
-console.log('✅ Supabase connection successful!');
-  } catch (err: any) {
-  console.error('❌ Supabase connection failed:', err.message);
-}
-}) ();
-
 // Auth functions
 export const auth = {
   signUp: async (email: string, password: string) => {
